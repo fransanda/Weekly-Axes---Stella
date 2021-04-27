@@ -6,7 +6,7 @@
                      callback: showInfo,
                      simpleSheet: false
                      const firstTab = tabletop.sheets("Conent").all()
-                     const secondTab = tabletop.sheets('Individual Stocks).all()
+                     const secondTab = tabletop.sheets('Individual Stocks').all()
                    }
                  )
   }
