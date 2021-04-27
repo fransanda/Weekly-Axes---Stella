@@ -10,7 +10,7 @@
   }
 
  
-function showInfo(data, tabletop.sheets("Content")) {
+function showInfo(data, tabletop) {
 data.forEach(function(data) {
     SSheader.innerHTML = data.header;
     SSheader2.innerHTML = data.header2;
