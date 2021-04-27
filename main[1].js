@@ -5,7 +5,7 @@
     Tabletop.init( { key: publicSpreadsheetUrl,
                      callback: showInfo,
                      simpleSheet: false
-                     const firstTab = tabletop.sheets('[insert-tab-name]').all()
+                     const firstTab = tabletop.sheets('Conent').all()
                      const secondTab = tabletop.sheets('[insert-tab-name-2]').all()
                    }
                  )
