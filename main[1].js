@@ -4,13 +4,17 @@
   function init() {
     Tabletop.init( { key: publicSpreadsheetUrl,
                      callback: showInfo,
-                     simpleSheet: true } )
+                     simpleSheet: false
+                     const firstTab = tabletop.sheets('[insert-tab-name]').all()
+                     const secondTab = tabletop.sheets('[insert-tab-name-2]').all()
+                   }
+                 )
   }
 
  
 function showInfo(data, tabletop) {
 data.forEach(function(data) {
-    SSheader.innerHTML = data.header;
+    SSheader.innerHTML = data.firstTab.header;
     SSheader2.innerHTML = data.header2;
     SSbody.innerHTML = data.body;
     SSbody2.innerHTML = data.body2;
