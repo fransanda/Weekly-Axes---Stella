@@ -12,7 +12,7 @@
  
 function showInfo(data, tabletop) {
 data.forEach(function(data) {
-    SSheader.innerHTML = data.tabletop.sheets("Conent").header;
+    SSheader.innerHTML = tabletop.sheets("Content").header;
     SSheader2.innerHTML = data.header2;
     SSbody.innerHTML = data.body;
     SSbody2.innerHTML = data.body2;
