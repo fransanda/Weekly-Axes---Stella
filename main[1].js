@@ -5,8 +5,6 @@
     Tabletop.init( { key: publicSpreadsheetUrl,
                      callback: showInfo,
                      simpleSheet: false
-                     const firstTab = tabletop.sheets("Conent").all()
-                     const secondTab = tabletop.sheets('Individual Stocks').all()
                    }
                  )
   }
@@ -14,7 +12,7 @@
  
 function showInfo(data, tabletop) {
 data.forEach(function(data) {
-    SSheader.innerHTML = data.firstTab.header;
+    SSheader.innerHTML = data.tabletop.sheets("Conent").header;
     SSheader2.innerHTML = data.header2;
     SSbody.innerHTML = data.body;
     SSbody2.innerHTML = data.body2;
