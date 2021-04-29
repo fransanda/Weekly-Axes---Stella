@@ -30,6 +30,14 @@ data.forEach(function(data) {
     SSbody15.innerHTML = data.body15;
     SSbody16.innerHTML = data.body16;
     SSbody17.innerHTML = data.body17;
+    SSbody18.innerHTML = data.body18;
+    SSbody19.innerHTML = data.body19;
+    SSbody20.innerHTML = data.body20;
+    SSbody21.innerHTML = data.body21;
+    SSbody22.innerHTML = data.body22;
+    SSbody23.innerHTML = data.body23;
+    SSbody24.innerHTML = data.body24;
+    SSbody25.innerHTML = data.body25;
 
  });
 }
