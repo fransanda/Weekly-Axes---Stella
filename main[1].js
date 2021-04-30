@@ -38,6 +38,22 @@ data.forEach(function(data) {
     SSbody23.innerHTML = data.body23;
     SSbody24.innerHTML = data.body24;
     SSbody25.innerHTML = data.body25;
+    SSbody26.innerHTML = data.body26;
+    SSbody27.innerHTML = data.body27;
+    SSbody28.innerHTML = data.body28;
+    SSbody29.innerHTML = data.body29;
+    SSbody30.innerHTML = data.body30;
+    SSbody31.innerHTML = data.body31;
+    SSbody32.innerHTML = data.body32;
+    SSbody33.innerHTML = data.body33;
+    SSbody34.innerHTML = data.body34;
+    SSbody35.innerHTML = data.body35;
+    SSbody36.innerHTML = data.body36;
+    SSbody37.innerHTML = data.body37;
+    SSbody38.innerHTML = data.body38;
+    SSbody39.innerHTML = data.body39;
+    SSbody40.innerHTML = data.body40;
+    SSbody41.innerHTML = data.body41;
 
  });
 }
