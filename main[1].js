@@ -1,6 +1,6 @@
 
  
-  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT6fpuQ_SQpV31eh9g5YY1Q0gXeCUK4sLCyi5LDTXz8endnWIIFq82TbLdde9GPC7Kdy3nskpUrGAu1/pub?output=csv';
+  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1cyRSNprW-B0YG_avA9SLJfAN3hFiNZoMB_eHBgXpduU/edit?usp=sharing';
 
 function init() {
           Papa.parse(publicSpreadsheetUrl, {
